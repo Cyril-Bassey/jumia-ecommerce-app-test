@@ -40,8 +40,8 @@ const ViewDetails = () => {
       console.log('Received Product : ', findProduct);
       setSingleProduct(findProduct);
     }
-    // eslint-disable-next-line to the line before.
-  }, [products]);
+    
+  }, [products, id]);
 
   return (
     <div className="bg-[#F1F1F2]">
