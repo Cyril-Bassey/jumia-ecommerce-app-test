@@ -8,7 +8,7 @@ const ViewDetails = () => {
   console.log('Id : ', id);
   const [products, setProducts] = useState([]);
   const [SingleProduct, setSingleProduct] = useState({});
-  const [error, setError] = useState(null);
+  // const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -25,8 +25,8 @@ const ViewDetails = () => {
         const combinedProducts = [...localProducts, ...externalProducts];
         console.log(combinedProducts);
         setProducts(combinedProducts);
-      } catch (err) {
-        setError(err.message);
+      } catch (error) {
+        // setError(error.message);
       }
     };
     fetchProducts();
@@ -40,7 +40,7 @@ const ViewDetails = () => {
       console.log('Received Product : ', findProduct);
       setSingleProduct(findProduct);
     }
-  }, [products]);
+  }, []);
 
   return (
     <div className="bg-[#F1F1F2]">

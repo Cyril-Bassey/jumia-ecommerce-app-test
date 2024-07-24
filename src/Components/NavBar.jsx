@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../images/Jumia-Logo.jpg';
-import head from '../images/user-profile-icon-free-vector.jpg';
+// import head from '../images/user-profile-icon-free-vector.jpg';
 import { IoPersonOutline } from 'react-icons/io5';
 import { SlArrowDown } from 'react-icons/sl';
 import { IoMdHelpCircleOutline } from 'react-icons/io';
