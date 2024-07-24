@@ -61,7 +61,7 @@ const ProductUploadForm = () => {
 
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="bg-pink-200 w-1/2 mx-auto my-6 p-4 rounded-2xl">
         <h2 id="addProd" className="text-center text-2xl text-cyan-950 ">
           Products Upload
