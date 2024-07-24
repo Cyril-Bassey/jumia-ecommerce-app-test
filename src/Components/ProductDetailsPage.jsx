@@ -40,7 +40,7 @@ const ViewDetails = () => {
       console.log('Received Product : ', findProduct);
       setSingleProduct(findProduct);
     }
-  }, []);
+  }, [products]);
 
   return (
     <div className="bg-[#F1F1F2]">
