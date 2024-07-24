@@ -45,7 +45,7 @@ const AdminPage = () => {
                 </svg>
                 <span class="sr-only">Toggle sidebar</span>
               </button>
-              <a href="#" class="flex items-center justify-between mr-4">
+              <a href="javascript:void(0)" class="flex items-center justify-between mr-4">
                 <img
                   src={Logo}
                   class="mr-3 h-8"
@@ -53,7 +53,7 @@ const AdminPage = () => {
                 />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Admin Dashboard</span>
               </a>
-              <form action="#" method="GET" class="hidden md:block md:pl-2">
+              <form action="javascript:void(0)" method="GET" class="hidden md:block md:pl-2">
                 <label for="topbar-search" class="sr-only">Search</label>
                 <div class="relative  md:w-96">
                   <div
@@ -126,7 +126,7 @@ const AdminPage = () => {
                 </div>
                 <div>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="flex py-3 px-4 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
                   >
                     <div class="flex-shrink-0">
@@ -171,7 +171,7 @@ const AdminPage = () => {
                     </div>
                   </a>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="flex py-3 px-4 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
                   >
                     <div class="flex-shrink-0">
@@ -217,7 +217,7 @@ const AdminPage = () => {
                     </div>
                   </a>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="flex py-3 px-4 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
                   >
                     <div class="flex-shrink-0">
@@ -265,7 +265,7 @@ const AdminPage = () => {
                     </div>
                   </a>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="flex py-3 px-4 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
                   >
                     <div class="flex-shrink-0">
@@ -314,7 +314,7 @@ const AdminPage = () => {
                     </div>
                   </a>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="flex py-3 px-4 hover:bg-gray-100 dark:hover:bg-gray-600"
                   >
                     <div class="flex-shrink-0">
@@ -358,7 +358,7 @@ const AdminPage = () => {
                   </a>
                 </div>
                 <a
-                  href="#"
+                  href="javascript:void(0)"
                   class="block py-2 text-md font-medium text-center text-gray-900 bg-gray-50 hover:bg-gray-100 dark:bg-gray-600 dark:text-white dark:hover:underline"
                 >
                   <div class="inline-flex items-center">
@@ -411,7 +411,7 @@ const AdminPage = () => {
                 </div>
                 <div class="grid grid-cols-3 gap-4 p-4">
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
                   >
                     <svg
@@ -430,7 +430,7 @@ const AdminPage = () => {
                     <div class="text-sm text-gray-900 dark:text-white">Sales</div>
                   </a>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
                   >
                     <svg
@@ -447,7 +447,7 @@ const AdminPage = () => {
                     <div class="text-sm text-gray-900 dark:text-white">Users</div>
                   </a>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
                   >
                     <svg
@@ -466,7 +466,7 @@ const AdminPage = () => {
                     <div class="text-sm text-gray-900 dark:text-white">Inbox</div>
                   </a>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
                   >
                     <svg
@@ -487,7 +487,7 @@ const AdminPage = () => {
                     </div>
                   </a>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
                   >
                     <svg
@@ -508,7 +508,7 @@ const AdminPage = () => {
                     </div>
                   </a>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
                   >
                     <svg
@@ -530,7 +530,7 @@ const AdminPage = () => {
                     </div>
                   </a>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
                   >
                     <svg
@@ -554,7 +554,7 @@ const AdminPage = () => {
                     </div>
                   </a>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
                   >
                     <svg
@@ -575,7 +575,7 @@ const AdminPage = () => {
                     </div>
                   </a>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
                   >
                     <svg
@@ -634,14 +634,14 @@ const AdminPage = () => {
                 >
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="block py-2 px-4 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
                     >My profile</a
                     >
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="block py-2 px-4 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
                     >Account settings</a
                     >
@@ -653,7 +653,7 @@ const AdminPage = () => {
                 >
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="flex items-center py-2 px-4 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     ><svg
                       class="mr-2 w-5 h-5 text-gray-400"
@@ -672,7 +672,7 @@ const AdminPage = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="flex items-center py-2 px-4 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     ><svg
                       class="mr-2 w-5 h-5 text-gray-400"
@@ -689,7 +689,7 @@ const AdminPage = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="flex justify-between items-center py-2 px-4 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       <span class="flex items-center">
@@ -730,7 +730,7 @@ const AdminPage = () => {
                 >
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="block py-2 px-4 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >Sign out</a
                     >
@@ -749,7 +749,7 @@ const AdminPage = () => {
           id="drawer-navigation"
         >
           <div class="overflow-y-auto py-5 px-3 h-full bg-white dark:bg-gray-800">
-            <form action="#" method="GET" class="md:hidden mb-2">
+            <form action="javascript:void(0)" method="GET" class="md:hidden mb-2">
               <label for="sidebar-search" class="sr-only">Search</label>
               <div class="relative">
                 <div
@@ -780,7 +780,7 @@ const AdminPage = () => {
             <ul class="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="javascript:void(0)"
                   class="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                 >
                   <svg
@@ -836,21 +836,21 @@ const AdminPage = () => {
                 <ul id="dropdown-pages" class="hidden py-2 space-y-2">
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                     >Settings</a
                     >
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                     >Kanban</a
                     >
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                     >Calendar</a
                     >
@@ -897,21 +897,21 @@ const AdminPage = () => {
                 <ul id="dropdown-sales" class="hidden py-2 space-y-2">
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                     >Products</a
                     >
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                     >Billing</a
                     >
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                     >Invoice</a
                     >
@@ -920,7 +920,7 @@ const AdminPage = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="javascript:void(0)"
                   class="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                 >
                   <svg
@@ -985,21 +985,21 @@ const AdminPage = () => {
                 <ul id="dropdown-authentication" class="hidden py-2 space-y-2">
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                     >Sign In</a
                     >
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                     >Sign Up</a
                     >
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                     >Forgot Password</a
                     >
@@ -1012,7 +1012,7 @@ const AdminPage = () => {
             >
               <li>
                 <a
-                  href="#"
+                  href="javascript:void(0)"
                   class="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
                 >
                   <svg
@@ -1034,7 +1034,7 @@ const AdminPage = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="javascript:void(0)"
                   class="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
                 >
                   <svg
@@ -1053,7 +1053,7 @@ const AdminPage = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="javascript:void(0)"
                   class="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
                 >
                   <svg
@@ -1078,7 +1078,7 @@ const AdminPage = () => {
             class="hidden absolute bottom-0 left-0 justify-center p-4 space-x-4 w-full lg:flex bg-white dark:bg-gray-800 z-20"
           >
             <a
-              href="#"
+              href="javascript:void(0)"
               class="inline-flex justify-center p-2 text-gray-500 rounded cursor-pointer dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-600"
             >
               <svg
@@ -1094,7 +1094,7 @@ const AdminPage = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="javascript:void(0)"
               data-tooltip-target="tooltip-settings"
               class="inline-flex justify-center p-2 text-gray-500 rounded cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
             >
@@ -1172,7 +1172,7 @@ const AdminPage = () => {
               <ul class="py-1" role="none">
                 <li>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:text-white dark:text-gray-300 dark:hover:bg-gray-600"
                     role="menuitem"
                   >
@@ -1215,7 +1215,7 @@ const AdminPage = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-600"
                     role="menuitem"
                   >
@@ -1237,7 +1237,7 @@ const AdminPage = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-600"
                     role="menuitem"
                   >
@@ -1261,7 +1261,7 @@ const AdminPage = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="javascript:void(0)"
                     class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:text-white dark:text-gray-300 dark:hover:bg-gray-600"
                     role="menuitem"
                   >
@@ -1286,31 +1286,31 @@ const AdminPage = () => {
                           width="30"
                           height="20"
                           transform="matrix(76.8 0 0 78 128 128)"
-                          href="#a"
+                          href="javascript:void(0)a"
                         />
                         <use
                           width="30"
                           height="20"
                           transform="rotate(-121 142.6 -47) scale(25.5827)"
-                          href="#a"
+                          href="javascript:void(0)"
                         />
                         <use
                           width="30"
                           height="20"
                           transform="rotate(-98.1 198 -82) scale(25.6)"
-                          href="#a"
+                          href="javascript:void(0)a"
                         />
                         <use
                           width="30"
                           height="20"
                           transform="rotate(-74 272.4 -114) scale(25.6137)"
-                          href="#a"
+                          href="javascript:void(0)a"
                         />
                         <use
                           width="30"
                           height="20"
                           transform="matrix(16 -19.968 19.968 16 256 230.4)"
-                          href="#a"
+                          href="javascript:void(0)"
                         />
                       </svg>
                       中文 (繁體)
