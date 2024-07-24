@@ -40,6 +40,7 @@ const ViewDetails = () => {
       console.log('Received Product : ', findProduct);
       setSingleProduct(findProduct);
     }
+    // eslint-disable-next-line to the line before.
   }, [products]);
 
   return (
