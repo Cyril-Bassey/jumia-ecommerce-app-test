@@ -5,6 +5,7 @@ import { IoPersonOutline } from 'react-icons/io5';
 import { SlArrowDown } from 'react-icons/sl';
 import { IoMdHelpCircleOutline } from 'react-icons/io';
 import { MdOutlineShoppingCart } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 // import { AiFillFrown } from "react-icons/ai";
 // import { Link, useNavigate } from "react-router-dom";
 
@@ -49,11 +50,13 @@ const Navbar = () => {
             <p className="ml-2 text">Account</p>
             <SlArrowDown className="h-3 w-3 ml-2 icon text-black" />
           </div>
+          <Link to={`/uploadproduct/`}>
           <div className="flex items-center hover-effect p-2 rounded-md">
             <IoMdHelpCircleOutline className="h-7 w-7 icon text-black" />
-            <p className="ml-2 text">Help</p>
+            <p className="ml-2 text">Add <br />items</p>
             <SlArrowDown className="h-3 w-3 ml-2 icon text-black" />
           </div>
+          </Link>
           <div className="flex items-center hover-effect p-2 rounded-md">
             <MdOutlineShoppingCart className="h-7 w-7 icon text-black" />
             <p className="ml-2 text">Cart</p>
